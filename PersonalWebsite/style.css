@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body, html {
+  height: 200px;
+}
+
+.header{
+height: 200px;
+border: 5px solid #b27272;
+overflow: hidden;
+position: fixed;
+background-color: #b27272;
+top: 0;
+left: 0;
+right: 0;
+z-index: 11;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*headings*/
+    /*this is the standard home page heading style */
+    h1{
+    color: white;
+    font-family: "Special Elite";
+    font-size: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: .20em;
+    }
+
+
+/*text styles*/
+    /*this is the standard text style (use this for paragraphs)*/
+    .text {
+      color: Black;
+      font-family: "Dosis";
+      text-align: left;
+      font-size: 16px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 200px;
+    }
+
+    .text p{
+      color: black;
+      text-align: left;
+      font-family: "Dosis";
+    }
+
+/*subtext*/
+    /*this is the heading subtext style*/
+    .header p{
+      color: white;
+      font-family: "Dosis";
+      text-align: center;
+      overflow: scroll;
+      position: relative;
+      top: -15px;
+      letter-spacing: .15em;
+    }
+
+    /* this is the standard home page button style, wull eventually make this a div*/
+    .navigation {
+      align:center;
+    }
+
+/*buttons*/
+
+      .navigation a {
+        /*making the block*/
+          display: block;
+          height: 30px;
+          width: 120px;
+          background: #b27272;
+          display: inline-block;
+          padding-top: 19px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        /*arranging the text*/
+          color: white;
+          text-align: center;
+          font-size: 17px;
+          font-family: "Special Elite";
+      	  text-decoration: none;
+      }
+
+      hr{
+        width: 90%;
+        border-color: #b27272;
+        background-color: #b27272;
+        z-index: -10;
+        align; center;
+        position: relative;
+        top: -35px;
+        height: 3px;
+        border: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+
+      .interests {
+        width: 30%;
+        display: block;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+      }
+
+      .interests a{
+        color: #b27272;
+      }
+
+      .interests p{
+        color: #b27272;
+        text-align: center;
+        text-decoration: bold;
+        font-size: 20px;
+        font-family: "Dosis";
+        display: block;
+      }
+
+      .interests img{
+        width:40%;
+        height: auto;
+      }
+
+      .interests p1{
+        display: block;
+        color: black;
+        font-family: "Dosis";
+        padding: 18px;
+        position: relative;
+        top: -15px;
+        z-index: -10;
+      }
+
+      .interests p2{
+        color: #b27272;
+        font-family: "Dosis";
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        top: -15px;
+      }
+
+      .interests, .contact a{
+        color: #b27272;
+        font-family: "Dosis";
+      }
+
+      .contact p{
+        display: block;
+        text-align: center;
+        color: #b27272;
+        font-family: "Dosis";
+        padding-bottom: 20px;
+        position: relative;
+        top: -10px;
+      }
+
+      .contact a{
+        color: #b27272;
+        font-family: "Dosis";
+      }
