@@ -14,7 +14,7 @@ background-color: #b27272;
 top: 0;
 left: 0;
 right: 0;
-z-index: 11;
+z-index: 15;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*headings*/
@@ -109,6 +109,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
       .interests a{
         color: #b27272;
+        z-index: 15;
       }
 
       .interests p{
@@ -132,7 +133,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 18px;
         position: relative;
         top: -15px;
-        z-index: -10;
+        z-index: 10;
       }
 
       .interests p2{
