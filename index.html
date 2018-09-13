@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/arizzy21.github.io/style.css" type='text/css'/>
+
   <script>
   // When the user clicks on <div>, open the popup
       function myFunction() {
@@ -16,8 +17,8 @@
       }
 
             // Change style of navbar on scroll
-      window.onscroll = function() {myFunction()};
-      function myFunction() {
+      window.onscroll = function() {myFunction2()};
+      function myFunction2() {
           var navbar = document.getElementById("myNavbar");
           if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
               navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
@@ -59,7 +60,7 @@
         <a href="#work" class="w3-bar-item w3-button" onclick="toggleFunction()">WORK</a>
         <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
         <a href="#bookshelf" class="w3-bar-item w3-button" onclick="toggleFunction()">BOOKSHELF</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT </a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"> CONTACT </a>
       </div>
     </div>
 
