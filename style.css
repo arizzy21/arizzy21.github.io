@@ -8,9 +8,7 @@ body, html {
 body {
   width: 100%;
 }
-.w3-container {
-  width: 150%;
-}
+
 img {
   width:20%;
   height: auto;
@@ -173,4 +171,18 @@ color: orange;
     width: 30px;
     height: 30px;
     text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .books {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }

@@ -14,6 +14,27 @@
           var popup = document.getElementById("myPopup");
           popup.classList.toggle("show");
       }
+
+            // Change style of navbar on scroll
+      window.onscroll = function() {myFunction()};
+      function myFunction() {
+          var navbar = document.getElementById("myNavbar");
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+              navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+          } else {
+              navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+          }
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+          var x = document.getElementById("navDemo");
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
   </script>
 
   <body>
@@ -50,8 +71,8 @@
       </div>
 
       <div class="intro center">
-      <p>I am a Pakistani American born and raised in Dallas, Texas. I am a Junior at Yale University,
-        where I am studying political science and computer science. I study inequalities of all sorts
+      <p>I am a Pakistani-American born and raised in Dallas, Texas. I am a Junior at Yale University,
+        where I study political science and computer science. I study inequalities of all sorts
         in my political science classes and am hoping my computer science coursework can help me
         devise real-world solutions to these real-world problems. Outside of school, I enjoy practicing yoga, reading and trying new foods.
         I am obsessed with Thai cuisine (always extra spicy) and almond milk boba tea (always extra boba). </p>
