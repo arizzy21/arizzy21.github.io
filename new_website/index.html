@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/arizzy21.github.io/new_website/style.css" type='text/css'/>
+  <script>
+  // When the user clicks on <div>, open the popup
+      function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+      }
+  </script>
+
+  <body>
+  <!-- Navbar (sit on top) -->
+
+    <div class="w3-top" style="background-color:white">
+      <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#work" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> WORK </a>
+        <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS </a>
+        <a href="#bookshelf" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> BOOKSHELF </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope-open" aria-hidden:"true"></i> CONTACT </a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#work" class="w3-bar-item w3-button" onclick="toggleFunction()">WORK</a>
+        <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+        <a href="#bookshelf" class="w3-bar-item w3-button" onclick="toggleFunction()">BOOKSHELF</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT </a>
+      </div>
+    </div>
+
+    <!-- Image with Logo Text -->
+    <div id="home">
+      <img class="center w3-opacity-min" src="/arizzy21.github.io/new_website/images/adichie.jpg"/>
+      <div class="w3-center" style="white-space:nowrap; padding-top: 3%">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">HI, I'M ALENA.</span>
+      </div>
+
+      <div class="intro center">
+      <p>I am a Pakistani American born and raised in Dallas, Texas. I am a Junior at Yale University,
+        where I am studying political science and computer science. I study inequalities of all sorts
+        in my political science classes and am hoping my computer science coursework can help me
+        devise real-world solutions to these real-world problems. Outside of school, I enjoy practicing yoga, reading and trying new foods.
+        I am obsessed with Thai cuisine (always extra spicy) and almond milk boba tea (always extra boba). </p>
+      </div>
+    </div>
+
+    <!--work section--->
+    <div class="w3-content" id="work">
+      <h3 class="w3-center" style="padding-top: 40px;">MY WORK</h3>
+      <div class="blocks" align=center>
+        <div class="center elements w3-opacity w3-hover-opacity-off">
+          <img src="/arizzy21.github.io/new_website/images/EF_Education_First_logo.jpg" style="width:20%;"/>
+          <p> EF Education First </p>
+          <p2> Project Management Intern | Boston, MA </p2><br><br>
+          <p1> I spent Summer 2018 facilitating learning opportunities for the 1600 students, educators, partners, staff and keynote speakers Glen Keane and Randi Zuckerberg
+            who attended the 2018 Global Leadership Summit (“The Impact of Technology on Society”) held in Berlin, Germany. I managed several cross-functional workflows for the first-ever Partner
+            Expo at this Summit which contributed to 4x more interactions between partner organizations and students than previous years. Alongside my work for the Summit, I analyzed data on customer
+            retention and proposed new company-wide targets. I also collaborated with other interns to develop a business proposal that identifies innovative strategies that
+            can be used to increase customer buy-in.</p1>
+        </div>
+        <div class="center elements w3-opacity w3-hover-opacity-off">
+          <img src="/arizzy21.github.io/new_website/images/daoffice.png" />
+          <p> Dallas District Attorney's Office </p>
+          <p2> Intern | Dallas, TX </p2><br><br>
+          <p1> In Summer 2017, I worked on 5 murder cases, 3 intoxication manslaughter cases, 2 manslaughter cases, 1 sexual assault case, and 2 aggravated assault of a public servant cases, one of which received significant press coverage.
+            I had the opportunity to carefully screen case documents, jail calls, crime scene footage and defendants’ backgrounds. Ultimately, I put everything together to formulate summaries, develop witness contact lists, interview witnesses,
+            and draft subpoenas. Working so closely with Prosecutors and Defense Attorneys allowed me to get a glimpe of the challenges that plague the American incarceration system.
+         </p1>
+        </div>
+        <div class="center elements w3-opacity w3-hover-opacity-off">
+          <img src="/arizzy21.github.io/new_website/images/collegevine.jpg" />
+          <p> CollegeVine </p>
+          <p2> Consultant | Remote </p2> <br><br>
+          <p1> Over the last two years, I have consulted clients on best practices throughout the college application process in hopes of minimizing the mentorship disparity between private and public-school applicants. I care deeply about youth
+          development and have worked within the college prep industry for 4 years. I specialize in essay ideation and development. </p1>
+        </div>
+      </div>
+    </div>
+
+
+    <!--projects section--->
+    <div  class="w3-content" id="projects">
+      <h3 class="w3-center" style="padding-top: 40px">MY PROJECTS</h3>
+        <div class="center elements w3-opacity w3-hover-opacity-off">
+          <img src="/arizzy21.github.io/new_website/images/blue.png" style="width:10%"; "height:10"/>
+          <p> YHack </p>
+          <p2> Director | New Haven, CT </p2><br><br>
+          <p1> As we prepare for our fifth annual hackathon to be held from November 30th to December 2nd, I am coaching sub-teams through the sponsor acquisition phase to raise $250,000. I also work with my
+          co-directors to leverage team member strengths to effectively coordinate logistics (registration, transportation, venue, food, sponsors, contracting, A/V, scheduling, materials, safety) for this 36-hour hackathon.
+          Prior to becoming a director of this event, I joined the team as a member. I coordinated with rideshare services to reduce airport to campus transportation costs and improve hacker experience. I also
+          facilitated the formation of diverse groups and adding diversity-based activities to the 2017 YHack schedule.</p1>
+        </div>
+
+        <div class="center elements w3-opacity w3-hover-opacity-off">
+          <img src="/arizzy21.github.io/new_website/images/hustle.png" />
+          <p> Hustle. </p>
+          <p2> Developer | New Haven, CT </p2><br><br>
+          <p1> Through a class project, I discovered that Yale students often struggle to discover career paths that interest them because of the
+          university's liberal arts structure. I also knew that the career office publishes a list of graduating students (along with their major, industry, and position) each year.
+          Despite the resource's potential to be immensely useful for students needing more guidance, no one really knows about these lists. My hypothesis is that
+          no one is using these lists, first because they are difficult to locate and, second because they aren't easily searchable -- they're merely unlinked excel sheets. In order to make this data more user-friendly, I am building a software that uses a simple SQL backend to store all the data, Python to run the program,
+          and a HTML/CSS/Javascript to receive input from the user. This project is currently in a testing phase. </p1>
+        </div>
+
+        <div class="center elements w3-opacity w3-hover-opacity-off">
+          <img src="/arizzy21.github.io/new_website/images/girl.png" />
+          <p> Global Patterns of Gender-Based Participation in Tech Industries </p>
+          <p2> Researcher | New Haven, CT </p2> <br><br>
+          <p1> Last semester, I produced a research paper for a class that explored reasons why women were underrepresented in the technology industry, despite having many features that experts have stated appeal to
+              women when choosing a career path (flexibility, shorter timelines, etc.). In my research, I compared primate habits to human habits and found that females are socialized to prefer to collaborate with
+              all types of people while males prefer only to collaborate with males. As such, it may be that if more females enter the technology industry, males will start to exit. While this wasn't the point of
+              my research for your class, I was intrigued by this theory and began to do some independent research. I am now exploring the possibility of a “gender-fication” of the tech industry by studying human
+              tendencies and international patterns. </p1>
+        </div>
+    </div>
+
+    <!--bookshelf section-->
+    <div class="w3-content" id="bookshelf">
+      <h3 class="w3-center" style="padding-top: 60px">MY BOOKSHELF</h3>
+      <div class="blocks" align=center>
+        <div class="books w3-opacity w3-hover-opacity-off">
+          <div class="tooltip">
+            <img src="/arizzy21.github.io/new_website/images/zeitoun.jpg"/>
+            <br>
+            <br>
+            "Zeitoun" by Dave Eggers<span class="tooltiptext">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <br> Non-fiction <br>This is a captivating based-on-a-true-story novel
+            about a family's escape from Hurricane Katrina and the discrimination they face as they try to keep their family together. Although I loved
+            the book, the real-life characters have a devestating backstory. Read about it <a href="http://www.nytimes.com/2012/08/10/us/celebrated-hero-in-zeitoun-book-faces-murder-charges-in-new-orleans.html?mcubz=0" target="_blank">
+           here</a> once you read the book.</span>
+          </div>
+        </div>
+
+        <div class="books w3-opacity w3-hover-opacity-off">
+          <div class="tooltip">
+            <img src="/arizzy21.github.io/new_website/images/youareabadass.jpg"/>
+            <br>
+            <br>
+            "You Are a Badass" by Jen Sincero<span class="tooltiptext">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <br> Non-fiction <br>This is a easy-to-read self-help book. Jen is easy to follow, funny and relatable. If you need a confidence boost to make a big decision or even just to
+            feel better about yourself, pick this book up! </span>
+          </div>
+        </div>
+
+        <div class="books w3-opacity w3-hover-opacity-off">
+          <div class="tooltip">
+            <img src="/arizzy21.github.io/new_website/images/workrules.jpg"/>
+            <br>
+            <br>
+            "Work Rules!" by Laszlo Bock<span class="tooltiptext">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <br> Non-fiction <br>Eager to learn about how to lead flat-structured teams? Based on Google's best practices,
+            this book will teach you so many management tips and tricks that will help you
+            learn how to empower your teams and become an effective leader.</span>
+          </div>
+        </div>
+
+        <div class="books w3-opacity w3-hover-opacity-off">
+          <div class="tooltip">
+            <img src="/arizzy21.github.io/new_website/images/speak.jpg"/>
+            <br>
+            <br>
+            "Speak" by Laurie Halse Anderson<span class="tooltiptext">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br> Fiction <br> This novel tells the story of a high-school girl who is outcasted after calling the cops and busting a party.
+            She eventually speaks up for herself and exposes the upperclassman boy who raped her at that very party. This book exposes the struggles and challenges of being
+            a disenfranchised teenager grappling with this terrible assault. I found this book to be particularly moving because of the multiple child abuse and sexual assault
+            cases I witnessed during my summer internship at the Dallas District Attorney's Office.</span>
+          </div>
+        </div>
+
+        <div class="books w3-opacity w3-hover-opacity-off">
+          <div class="tooltip">
+            <img src="/arizzy21.github.io/new_website/images/adichie.jpg"/>
+            <br>
+            <br>
+            "We Should All Be Feminists" by Chimamanda Ngozi Adichie<span class="tooltiptext">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br> Non-fiction <br> Just read this one - trust me.</span>
+          </div>
+        </div>
+
+        <div class="books w3-opacity w3-hover-opacity-off">
+          <div class="tooltip">
+            <img src="/arizzy21.github.io/new_website/images/imaginaryhomelands.jpg"/>
+            <br>
+            <br>
+            "Imaginary Homelands" by Salman Rushdie<span class="tooltiptext">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br> Non-fiction <br> This collection of essays tells the story of so many displaced persons and the internal and external challenges
+            they face. This book opened my mind up so much and pushed me to really put myself in others shoes.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--contact section-->
+    <div class="contact" id="contact">
+      <h3 class="w3-center" style="padding-top: 60px;">MY CONTACT</h3>
+      <a href= "mailto:alena.rajwani@yale.edu"> alena.rajwani@yale.edu</a>  <br> <a href="https://www.linkedin.com/in/alena-rajwani/" target="_blank">LinkedIn</a> </p>
+
+      <div class="popup w3-center" onclick="myFunction()">Click here to read about why I made this website!
+
+        <span class="popuptext" id="myPopup"><div class="popupCloseButton">X</div>Hi there! <br><br> I started this project after a terrible experience at a hackathon. <br><br>
+            Let me backtrack for a second. A hackathon is a 24 hour coding-fest hosted for people of all experience levels. With a growing interest in code
+            (and frankly the free giveaways involved), I, too, signed up for this hackathon. Shortly after my friends and
+            I arrived, the three of us met a group of hackers who were interested in having us join their team. As our discussions continued,
+            I realized the group of hackers wanted my friends to join their team, but not me. They weren't even talking to me. But, why?<br><br>
+
+            My friends were not more experienced than myself, they were not more charasmatic than myself, they were not more
+            interested than myself. Call it jumping to conclusions or a bias or really whatever you want, but the fact that I
+            cannot confidently eliminate my gender as a reason for my exclusion is a mark of concern
+            not only for myself, but also for a society that prides itself on freedom and equality. <br><br>
+
+            As I walked home angrily and teary-eyed from the hackathon, I promised myself I would learn how to code. With the help of Codeacademy and StackOverflow, I did just that. In fact, I not only learned
+            how to code, but I also now will be directing that very hackathon and hope to make it a much more inclusive space. While this isn't a complex website by any means, it speaks volumes about the power
+            of relentless determination. To women around the world I say, <span style="font-weight:900">dont give up. </span>We are capable of anything we set our minds to. <br><br>
+
+            Yours truly, <br>
+            Alena</span>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+  </body>
+</html>
