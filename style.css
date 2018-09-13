@@ -112,7 +112,7 @@ color: orange;
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 50%;
+    width: 100%;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -178,11 +178,19 @@ color: orange;
     .books {
         width: 50%;
     }
+
+    img {
+      padding-top: 5%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+    }
+
+    img {
+      padding-top: 5%;
     }
 }
