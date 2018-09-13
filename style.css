@@ -112,7 +112,7 @@ color: orange;
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 100%;
+    width: 400px;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -182,6 +182,10 @@ color: orange;
     img {
       padding-top: 5%;
     }
+
+    .popup .popuptext {
+      width: 100%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -192,5 +196,9 @@ color: orange;
 
     img {
       padding-top: 5%;
+    }
+
+    .popup .popuptext {
+      width: 100%;
     }
 }
