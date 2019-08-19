@@ -180,7 +180,7 @@ color: orange;
     }
 
     img {
-      padding-top: 10%;
+      padding-top: 5%;
     }
 
     .popup .popuptext {
@@ -192,7 +192,7 @@ color: orange;
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     img {
-      padding-top: 10px;
+      padding-top: 20px;
     }
 
     .popup .popuptext {
