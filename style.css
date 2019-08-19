@@ -191,6 +191,12 @@ color: orange;
     .headshot img{
       padding-top: 10%;
     }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -206,5 +212,33 @@ color: orange;
 
     .headshot img{
       padding-top: 10%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+/* Responsive layout for mobile- makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 450px) {
+    img {
+      padding-top: 10px;
+    }
+
+    .popup .popuptext {
+      width: 100%;
+      margin-left: -50%;
+    }
+
+    .headshot img{
+      padding-top: 20%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 }
