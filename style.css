@@ -195,6 +195,7 @@ color: orange;
 
     #home img {
       padding-top: 100px;
+      padding-bottom: 40px;
     }
 
     .center {
@@ -216,6 +217,7 @@ color: orange;
 
   #home img {
     padding-top: 80px;
+    padding-bottom: 40px;
   }
 
     .popup .popuptext {
@@ -242,7 +244,7 @@ color: orange;
 
     #home img {
       padding-top: 60px;
-      padding-bottom: 20px;
+      padding-bottom: 40px;
     }
     .popup .popuptext {
       width: 100%;
