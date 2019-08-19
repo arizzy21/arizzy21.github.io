@@ -189,7 +189,7 @@ color: orange;
     }
 
     .headshot img{
-      padding-top: 10%;
+      margin-top: 90px;
     }
 
     .center {
@@ -211,7 +211,7 @@ color: orange;
     }
 
     .headshot img{
-      padding-top: 10%;
+      margin-top: 70px;
     }
 
     .center {
@@ -224,7 +224,7 @@ color: orange;
 /* Responsive layout for mobile- makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 450px) {
     img {
-      padding-top: 10px;
+      padding-top: 20px;
     }
 
     .popup .popuptext {
@@ -233,7 +233,7 @@ color: orange;
     }
 
     .headshot img{
-      padding-top: 20%;
+      margin-top: 50px;
     }
 
     .center {
