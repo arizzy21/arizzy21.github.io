@@ -179,17 +179,22 @@ color: orange;
         width: 50%;
     }
 
-    img {
-      padding-top: 5%;
-    }
 
     .popup .popuptext {
       width: 100%;
       margin-left: -25%;
     }
 
-    .headshot img{
-      margin-top: 90px;
+    #bookshelf img {
+      padding-top: 20px;
+    }
+
+    #work img {
+      padding-top: 20px;
+    }
+
+    #home img {
+      padding-top: 100px;
     }
 
     .center {
@@ -201,17 +206,21 @@ color: orange;
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    img {
-      padding-top: 10px;
-    }
+  #bookshelf img {
+    padding-top: 20px;
+  }
+
+  #work img {
+    padding-top: 20px;
+  }
+
+  #home img {
+    padding-top: 80px;
+  }
 
     .popup .popuptext {
       width: 100%;
       margin-left: -50%;
-    }
-
-    .headshot img{
-      margin-top: 70px;
     }
 
     .center {
@@ -232,7 +241,8 @@ color: orange;
     }
 
     #home img {
-      padding-top: 50px;
+      padding-top: 60px;
+      padding-bottom: 20px;
     }
     .popup .popuptext {
       width: 100%;
